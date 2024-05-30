@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather APP</title>
+    <link rel="stylesheet" type="text/css" href="Index.css">
+</head>
+<body>
+     
+    <div class="card">
+
+        <div class ="search">
+            <input id="name" type=" search" placeholder="Enter city name" spellcheck="false">
+            <button id="search-btn"><ion-icon name="search-outline" class="search-icon"></ion-icon></button>
+        </div>
+        <div class="weather"></div>
+               <img src="images/rain.png" id="weather-icon" >
+                <h1 id="temp">30°C</h1>
+                <h2 id="city">Your City</h2>
+
+                <div class="details">
+                     <div class="col">
+                        <img src="images/humidity.png" alt="humidity" >
+                        <div>
+                            <p id="humidity">50%</p>
+                            <p id="ph">Humidity</p>
+                        </div>
+                     </div>
+                </div>
+                <div class="details">
+                    <div class="col">
+                       <img src="images/wind.png" alt="humidity" >
+                       <div>
+                           <p id="wind">15 km/h</p>
+                           <p id="pw">Wind Speed</p>
+               
+                       </div>
+                    </div>
+               </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script  src="Index.js" type="text/javascript"> </script>
+</body>
+</html>
