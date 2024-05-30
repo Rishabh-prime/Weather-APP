@@ -1,4 +1,4 @@
-const apikey = "7eb3a21d0f7a542ef533a7dca1982e48";
+const apikey = "Switch With your Api key";
 const searchBar= document.getElementById("name");
 const searchButton=document.getElementById("search-btn");
 
