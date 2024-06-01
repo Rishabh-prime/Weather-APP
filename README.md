@@ -24,11 +24,7 @@ This Weather App allows users to search for a city and get the current temperatu
 - A web browser to run the application.
 - An API key from [OpenWeatherMap](https://openweathermap.org/api).
 
-### Installation
 
-1. Clone the repository to your local machine:
-   ```sh
-   git clone https://github.com/your-username/weather-app.git
 
    ## File structure
 One/
